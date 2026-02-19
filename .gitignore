@@ -1,0 +1,35 @@
+# Byte-code files
+*.pyc
+__pycache__
+#
+
+# Virtual environments
+.venv
+venv
+env
+ENV
+#
+
+# IDE-specific files and directories
+.idea/  # PyCharm
+.vscode/ # VS Code (often kept in version control for team consistency, adjust as needed)
+*.swp   # Vim
+*.sublime-workspace # Sublime Text
+
+# Project build artifacts and dependencies
+dist/
+build/
+*.egg-info/
+
+# Operating System files
+.DS_Store # macOS
+
+# Specific to testing/linting tools
+.pytest_cache/
+.coverage
+
+# Specific to data science projects (adjust as needed)
+.ipynb_checkpoints # Jupyter notebooks
+
+# Other common ignores
+.python-version #
