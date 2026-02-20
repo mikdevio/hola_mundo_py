@@ -55,3 +55,13 @@ print(divisible_text.split(' '))
 # .join(<lista de cadenas de texto>) Une los elementos de una lista en un solo string (es el proeso inverso).
 list_of_strings = divisible_text.split(' ')
 print(", ".join(list_of_strings))
+
+# Ejercicio practico "limpieador de base de datos"
+unclean_exer_text = "  jUAN_pErez , mArIA_lOpEz , rIcaRdo_GoMeZ  "
+
+# el objetivos es transformar esta cadena para que el resultado final sea una lista limpie como:
+# ['Juan Perez', 'Maria Lopez', 'Ricardo Gomez']
+
+# Solución del ejercicio
+res = unclean_exer_text.strip().replace(" ", "").lower().replace("_", " ").title().split(",")
+print(res)
